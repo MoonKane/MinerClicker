@@ -1,0 +1,397 @@
+* {
+	user-select: none;
+}
+
+body {
+	margin: 5px;
+	padding: 5px;
+	background-color: gray;
+}
+
+.list p, .list h3 {
+	margin: 5px 0;
+}
+
+.list h3 {
+	font-size: 1.45vw;
+}
+
+.list p {
+	font-size: 1.25vw;
+}
+
+button {
+	outline: none;
+}
+
+#all {
+	grid-template-columns: 1.2fr 2.75fr 0.8fr;
+	grid-column-gap: 10px;
+}
+
+#pick button:disabled .buy {
+	color: red;
+}
+
+#pick button:enabled .buy {
+	color: green;
+}
+
+.broke:disabled .open {
+	color: red;
+}
+
+.broke:enabled .open {
+	color: green;
+}
+
+#pick button {
+	border: 1px solid aqua;
+}
+
+.fminer:disabled .buy {
+	color: red;
+}
+
+.fminer:enabled .buy {
+	color: green;
+}
+
+.fminer {
+	border: 1px solid yellow;
+}
+
+#crystalblock, #minercrystal, #mncrystal {
+	display: none;
+}
+
+#clicker {
+	border: 1px solid black;
+	padding: 10px;
+	margin: auto;
+}
+
+#header {
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-column-gap: 2px;
+}
+
+#moneys {
+	font-size: 25px;
+	color: blue;
+	height: 50px;
+	text-align: center;
+	border: 1px solid blue;
+	padding-bottom: 5px;
+}
+
+#pops {
+	font-size: 25px;
+	color: aqua;
+	height: 50px;
+	text-align: center;
+	border: 1px solid aqua;
+	padding-bottom: 5px;
+}
+
+#crystals {
+	font-size: 25px;
+	color: yellow;
+	height: 50px;
+	text-align: center;
+	border: 1px solid yellow;
+	padding-bottom: 5px;
+	background-color: gray;
+}
+
+#crystals .text {
+	font-size: 20px;
+}
+
+#moneys .text {
+	font-size: 23px;
+}
+
+#pops .text {
+	font-size: 15px;
+	margin-left: 3px;
+}
+
+#pick button {
+	width: 120px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+#minersbuy button {
+	width: 120px;
+	height: 50px;
+	margin-top: 10px;
+	float: right;
+} 
+
+.fminer .buy {
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.grid {
+	display: grid;
+}
+
+#menu {
+	grid-template-columns: 9vw 30vw 9vw;
+	grid-column-gap: 10px;
+}
+
+#center {
+	padding-top: 10px;
+	grid-template-columns: repeat(2, 14.25vw);
+	grid-column-gap: 1.5vw;
+	grid-template-rows: repeat(3, 20vw);
+	grid-row-gap: 10px;
+}
+
+.block {
+	grid-template-columns: 1fr;
+	grid-template-rows: 13.25vw 6vw;
+}
+
+.list {
+	padding-left: 2.5px;
+	align-items: center;
+	font-weight: bold;
+	background-color: #A9A9A9;
+}
+
+#stoneb {
+	background-image: url('images/rock-clipart.png');
+}
+
+#coalb {
+	background-image: url('images/lump of coal.png');
+}
+
+#ironb {
+	background-image: url('images/hq.metal_.ore_.png');
+}
+
+#bronzeb {
+	background-image: url('images/Copper_Ore_128.png');
+}
+
+#silverb {
+	background-image: url('images/361304.png');
+}
+
+#goldb {
+	background-image: url('images/69a22d2a130bcf348c00316ffd646d72.png');
+}
+
+.ores {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: ligthgrey;
+	border: none;
+	outline: none;
+	position: relative;
+}
+
+.ores:hover {
+	transform: scale(1.005);
+}
+
+.ores:active {
+	transform: scale(1);
+}
+
+.broke::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: black;
+   opacity: .5;
+ }
+
+.open {
+	color: red;
+	font-size: 25px;
+	position: relative;
+}
+
+#pick .text {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#pick .buy {
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+
+
+
+#warehouse {
+	border: 1px solid black;
+	padding-right: 7.5px;
+}
+
+#whcrystal {
+   list-style-image: url('images/crystal.jpg');
+}
+
+#whstone {
+   list-style-image: url('images/stone-for-sell.png');
+}
+
+#whcoal {
+   list-style-image: url('images/coal-for-sell.png');
+}
+
+#whiron {
+   list-style-image: url('images/iron-for-sell.png');
+}
+
+#whbronze {
+   list-style-image: url('images/bronze-for-sell.png');
+}
+
+#whsilver {
+   list-style-image: url('images/silver-for-sell.png');
+}
+
+#whgold {
+   list-style-image: url('images/gold-for-sell.png');
+}
+
+
+#wareh li {
+	font-size: 20px;
+	color: aqua;
+	margin-top: 5px;
+	border: 1px solid gold;
+}
+
+#wareh .star {
+	border: 1px solid black;
+}
+
+#wareh li .saleore {
+	float: right;
+	grid-template-columns: 1fr 0.5fr 1.3fr;
+}
+
+#wareh li .sale {
+	font-size: 13px;
+	margin-top: 2px;
+	background-color: gold;
+	outline: none;
+}
+
+#wareh li .sale:disabled {
+	color: red;
+}
+
+#wareh li .sale:enabled {
+	color: green;
+}
+
+#wareh li .salemoney {
+}
+
+#wareh li .multiplysale {
+	font-size: 13px;
+	color: red;
+	float: right;
+	margin-right: 5px;
+	margin-top: 2px;
+	background-color: gold;
+	outline: none;
+}
+
+#wareh .orecolw {
+	border: 1px solid blue;
+}
+
+#warehouse h1 {
+	color: aqua;
+	text-align: center;
+}
+
+
+
+
+#miners {
+	border: 1px solid black;
+	padding-right: 7.5px;
+}
+
+#minerc li {
+	font-size: 20px;
+	color: aqua;
+	margin-top: 5px;
+	border: 1px solid gold;
+}
+
+#mnstone {
+   list-style-image: url('images/stone-for-sell.png');
+}
+
+#mncoal {
+   list-style-image: url('images/coal-for-sell.png');
+}
+
+#mniron {
+   list-style-image: url('images/iron-for-sell.png');
+}
+
+#mnbronze {
+   list-style-image: url('images/bronze-for-sell.png');
+}
+
+#mnsilver {
+   list-style-image: url('images/silver-for-sell.png');
+}
+
+#mngold {
+   list-style-image: url('images/gold-for-sell.png');
+}
+
+#minerc li .sale {
+	font-size: 13px;
+	color: red;
+	float: right;
+	margin-right: 5px;
+	margin-top: 2px;
+	background-color: gold;
+	outline: none;
+}
+
+#minerc li .countsale {
+	font-size: 13px;
+	color: red;
+	float: right;
+	margin-right: 5px;
+	margin-top: 2px;
+	background-color: gold;
+	outline: none;
+}
+
+#minerc .orecolw {
+	border: 1px solid blue;
+}
+
+.mnore .text {
+	font-size: 14px;
+}
+
+#miners h1 {
+	color: aqua;
+	text-align: center;
+}
