@@ -165,27 +165,27 @@ button {
 }
 
 #stoneb {
-	background-image: url('images/rock-clipart.png');
+	background-image: url('../images/rock-clipart.png');
 }
 
 #coalb {
-	background-image: url('images/lump of coal.png');
+	background-image: url('../images/lump of coal.png');
 }
 
 #ironb {
-	background-image: url('images/hq.metal_.ore_.png');
+	background-image: url('../images/hq.metal_.ore_.png');
 }
 
 #bronzeb {
-	background-image: url('images/Copper_Ore_128.png');
+	background-image: url('../images/Copper_Ore_128.png');
 }
 
 #silverb {
-	background-image: url('images/361304.png');
+	background-image: url('../images/361304.png');
 }
 
 #goldb {
-	background-image: url('images/69a22d2a130bcf348c00316ffd646d72.png');
+	background-image: url('../images/69a22d2a130bcf348c00316ffd646d72.png');
 }
 
 .ores {
@@ -243,31 +243,31 @@ button {
 }
 
 #whcrystal {
-   list-style-image: url('images/crystal.jpg');
+   list-style-image: url('../images/crystal.jpg');
 }
 
 #whstone {
-   list-style-image: url('images/stone-for-sell.png');
+   list-style-image: url('../images/stone-for-sell.png');
 }
 
 #whcoal {
-   list-style-image: url('images/coal-for-sell.png');
+   list-style-image: url('../images/coal-for-sell.png');
 }
 
 #whiron {
-   list-style-image: url('images/iron-for-sell.png');
+   list-style-image: url('../images/iron-for-sell.png');
 }
 
 #whbronze {
-   list-style-image: url('images/bronze-for-sell.png');
+   list-style-image: url('../images/bronze-for-sell.png');
 }
 
 #whsilver {
-   list-style-image: url('images/silver-for-sell.png');
+   list-style-image: url('../images/silver-for-sell.png');
 }
 
 #whgold {
-   list-style-image: url('images/gold-for-sell.png');
+   list-style-image: url('../images/gold-for-sell.png');
 }
 
 
@@ -340,27 +340,27 @@ button {
 }
 
 #mnstone {
-   list-style-image: url('images/stone-for-sell.png');
+   list-style-image: url('../images/stone-for-sell.png');
 }
 
 #mncoal {
-   list-style-image: url('images/coal-for-sell.png');
+   list-style-image: url('../images/coal-for-sell.png');
 }
 
 #mniron {
-   list-style-image: url('images/iron-for-sell.png');
+   list-style-image: url('../images/iron-for-sell.png');
 }
 
 #mnbronze {
-   list-style-image: url('images/bronze-for-sell.png');
+   list-style-image: url('../images/bronze-for-sell.png');
 }
 
 #mnsilver {
-   list-style-image: url('images/silver-for-sell.png');
+   list-style-image: url('../images/silver-for-sell.png');
 }
 
 #mngold {
-   list-style-image: url('images/gold-for-sell.png');
+   list-style-image: url('../images/gold-for-sell.png');
 }
 
 #minerc li .sale {
